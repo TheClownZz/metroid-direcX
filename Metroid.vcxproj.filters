@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{06250ddd-d096-4707-a466-31c85084f294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{43e5cefe-7663-40d6-a194-d126bf8330bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sences">
+      <UniqueIdentifier>{86ade1ed-2999-426c-a99a-0b02534b1afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXMl">
+      <UniqueIdentifier>{5966f949-bf17-4890-9b0b-6a0af42dfa5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define">
+      <UniqueIdentifier>{ba367b0e-a7b8-4ffe-8174-85a9c19e1aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item">
+      <UniqueIdentifier>{65e2c920-aeed-456f-972f-7ee0ce9e96a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet">
+      <UniqueIdentifier>{6378f59e-103b-4ca1-9fe2-1113dd29295c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{5a40fc21-a108-41af-8059-c1456cef771a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy">
+      <UniqueIdentifier>{79d4d61b-8663-4ab1-b293-3df1722fe7d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Port">
+      <UniqueIdentifier>{f38e5e17-d64e-4904-80f7-589904226e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DrawLine">
+      <UniqueIdentifier>{0eb2746a-f70c-43f3-a957-3aa3f4123029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{8047e6d6-e6c5-428b-b620-75f37bb1333d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\Sound">
+      <UniqueIdentifier>{15a93260-a79a-43ac-9401-f7c2714e5633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Boss">
+      <UniqueIdentifier>{fa1b2bd9-2ab9-4703-a843-dcc09ce8ae3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{31b504ec-e157-4f40-84db-5d32381875a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource Files\Bullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource Files\Enemy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource Files\Items.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource Files\MetriodTileMap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource Files\Port.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource Files\SamusAranNormal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource Files\SamusAranRocket.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource Files\SamusAranVaria.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Resource Files\Bullet.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="Resource Files\Enemy.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="Resource Files\Items.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="Resource Files\MetroidMap.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="Resource Files\Port.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="Resource Files\SamusAran.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource Files\MetroidMap.tmx">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource Files\Test.tmx">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>TinyXMl</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>TinyXMl</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>TinyXMl</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>TinyXMl</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoSprite.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObjectGroup.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Items.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Port.cpp">
+      <Filter>Object\Port</Filter>
+    </ClCompile>
+    <ClCompile Include="SamusAran.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SamusAranAnimation.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SamusAranCollision.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SamusAranState.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Sences</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawLine.cpp">
+      <Filter>DrawLine</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TileSet.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="dsutil.cpp">
+      <Filter>Global\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Global\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletKraid.cpp">
+      <Filter>Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletRidley.cpp">
+      <Filter>Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Bumerang.cpp">
+      <Filter>Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Kraid.cpp">
+      <Filter>Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Ridley.cpp">
+      <Filter>Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawString.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>TinyXMl</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>TinyXMl</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoSprite.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDefine.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObjectGroup.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Items.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Port.h">
+      <Filter>Object\Port</Filter>
+    </ClInclude>
+    <ClInclude Include="SamusAran.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SamusAranAnimation.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SamusAranCollision.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SamusAranState.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Sences</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawLine.h">
+      <Filter>DrawLine</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TileSet.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="dsutil.h">
+      <Filter>Global\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="dxutil.h">
+      <Filter>Global\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Global\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletKraid.h">
+      <Filter>Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletRidley.h">
+      <Filter>Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Bumerang.h">
+      <Filter>Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Kraid.h">
+      <Filter>Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Ridley.h">
+      <Filter>Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawString.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

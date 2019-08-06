@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:4d9470b82490e32ab37f24896099c343:235b94df878f5dfa7ec4837f159f3e8a:531ae9206c3c78e8bfbb0b8191c5c7cb$ -->
+<TextureAtlas imagePath="boss.png" width="118" height="230">
+    <sprite n="0" x="1" y="1" w="24" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="1" x="27" y="1" w="24" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="2" x="53" y="1" w="24" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="3" x="79" y="1" w="24" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="4" x="1" y="35" w="24" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="5" x="27" y="35" w="24" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="6" x="53" y="35" w="31" h="40" pX="0.5" pY="0.5"/>
+    <sprite n="7" x="86" y="35" w="31" h="40" pX="0.5" pY="0.5"/>
+    <sprite n="8" x="1" y="77" w="31" h="46" pX="0.5" pY="0.5"/>
+    <sprite n="9" x="34" y="77" w="31" h="46" pX="0.5" pY="0.5"/>
+    <sprite n="10" x="67" y="77" w="8" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="11" x="77" y="77" w="8" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="12" x="87" y="77" w="8" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="13" x="97" y="77" w="8" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="14" x="107" y="77" w="8" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="15" x="1" y="125" w="8" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="16" x="11" y="125" w="8" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="17" x="21" y="125" w="8" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="18" x="31" y="125" w="8" h="3" pX="0.5" pY="0.5"/>
+    <sprite n="19" x="41" y="125" w="8" h="3" pX="0.5" pY="0.5"/>
+    <sprite n="20" x="51" y="125" w="7" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="21" x="60" y="125" w="7" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="22" x="69" y="125" w="7" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="23" x="78" y="125" w="7" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="24" x="87" y="125" w="7" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="25" x="96" y="125" w="7" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="26" x="105" y="125" w="7" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="27" x="1" y="135" w="7" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="28" x="10" y="135" w="31" h="40" pX="0.5" pY="0.5"/>
+    <sprite n="29" x="43" y="135" w="31" h="40" pX="0.5" pY="0.5"/>
+    <sprite n="30" x="76" y="135" w="31" h="46" pX="0.5" pY="0.5"/>
+    <sprite n="31" x="1" y="183" w="31" h="46" pX="0.5" pY="0.5"/>
+    <sprite n="32" x="34" y="183" w="18" h="19" pX="0.5" pY="0.5"/>
+    <sprite n="33" x="54" y="183" w="33" h="32" pX="0.5" pY="0.5"/>
+</TextureAtlas>

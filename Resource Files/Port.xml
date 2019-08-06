@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:2f9caec8b5b8607de7df4bd9e0f6850d:4f24456978de1cf6bb97c9e20de57bbb:48133b692288961b28eee58ea0c35073$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas width="108" height="118">
+    <sprite n="0" x="1" y="1" w="16" h="16" pX="0.5" pY="0.5"/>
+    <sprite n="1" x="19" y="1" w="16" h="16" pX="0.5" pY="0.5"/>
+    <sprite n="2" x="37" y="1" w="16" h="16" pX="0.5" pY="0.5"/>
+    <sprite n="3" x="55" y="1" w="16" h="16" pX="0.5" pY="0.5"/>
+    <sprite n="4" x="73" y="1" w="16" h="16" pX="0.5" pY="0.5"/>
+    <sprite n="5" x="91" y="1" w="16" h="16" pX="0.5" pY="0.5"/>
+    <sprite n="6" x="1" y="19" w="48" h="48" pX="0.5" pY="0.5"/>
+    <sprite n="7" x="51" y="19" w="48" h="48" pX="0.5" pY="0.5"/>
+    <sprite n="8" x="1" y="19" w="48" h="48" pX="0.5" pY="0.5"/>
+    <sprite n="9.png" x="1" y="69" w="48" h="48" pX="0.5" pY="0.5"/>
+    <sprite n="10.png" x="51" y="69" w="42" h="48" pX="0.5" pY="0.5"/>
+    <sprite n="11" x="1" y="69" w="48" h="48" pX="0.5" pY="0.5"/>
+    <sprite n="12" x="1" y="69" w="48" h="48" pX="0.5" pY="0.5"/>
+
+</TextureAtlas>

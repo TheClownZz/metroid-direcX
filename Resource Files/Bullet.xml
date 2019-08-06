@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:9c0cc3fd7d50906463addb6e299ac054:f66e6576de91a5f0648c049b103d84ef:0c0f709a391bfba2b40b29516c88c07c$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="Bullet.png" width="57" height="56">
+    <sprite n="0" x="0" y="0" w="4" h="5" pX="0.5" pY="0.5"/>
+    <sprite n="1" x="4" y="0" w="7" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="2" x="11" y="0" w="8" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="3" x="19" y="0" w="7" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="4" x="26" y="0" w="4" h="5" pX="0.5" pY="0.5"/>
+    <sprite n="5" x="30" y="0" w="7" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="6" x="37" y="0" w="8" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="7" x="45" y="0" w="7" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="8" x="0" y="8" w="8" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="9" x="8" y="8" w="8" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="10" x="16" y="8" w="10" h="10" pX="0.5" pY="0.5"/>
+    <sprite n="11" x="26" y="8" w="16" h="16" pX="0.5" pY="0.5"/>
+    <sprite n="12" x="0" y="24" w="31" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="13" x="42" y="8" w="11" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="14" x="26" y="8" w="16" h="16" pX="0.5" pY="0.5"/>
+    <sprite n="15" x="30" y="24" w="32" h="32" pX="0.5" pY="0.5"/>
+</TextureAtlas>
